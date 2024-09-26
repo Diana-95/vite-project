@@ -2,6 +2,7 @@
 import './App.css'
 import Calculator from './calculator/Calculator'
 import EmailForm from './EmailForm'
+import FormComponent from './form-validation/FormComponent'
 import GoalList from './GoalList'
 import ProductList from './ProductList'
 
@@ -14,6 +15,7 @@ function App() {
       <Calculator />
       <EmailForm />
       <ProductList />
+      <FormComponent />
     </div>
   )
 }
